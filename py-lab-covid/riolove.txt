@@ -1,0 +1,12 @@
+rio you got this sis, stay steady
+import pickle
+students = {
+    'Giselle': 'Las Vegas',
+    'Layne': 'Atlanta',
+    'Victoria': 'Humble"
+}
+
+with open('data.pickle', 'rb') as fh:
+    students = pickle.load(fh) 
+
+    
